@@ -1,31 +1,25 @@
 
 public class Chapter06 {
 	public static void main(String[] args) {
-		// == 演算子は文字列の比較に用いることもできる
+		// 「int」の変数「val」を「2 足す 5」を演算した結果で初期化して、値を出力
+		int val = 2 + 5;
+		System.out.println(val);
 
-//	    String a = "applepie";
-//	    String b = "apple";
-//	    
-//	    c == a == b;  //c == true
+		// インクリメントした変数「val」の値を出力
+		val++;
+		System.out.println(val);
 
-		// 上記はNG文
-		// ※ 一般的に文字列比較をしたい際に＝＝を使うのは避ける
+		// 「5」を掛けた変数「val」の値を出力
+		val *= 5;
+		System.out.println(val);
 
-		String a = "applePie";
-		String d = "apple";
-		String e = d + "Pie";
-		boolean c;
-		c = a == e; // c = false
+		// 「boolean」の変数「bool」に「valは50と等しい」を演算した結果を代入して、値を出力
+		boolean bool = (val == 50);
+		System.out.println(bool);
 
-//		String a = "applePie";
-		String f = new String("applePie");
-		c = a == f; // c =false
-
-//		c = a.equals(b); // c = true
-//		c = a.equals(e); // c = true
-//		c = a.equals(f); // c = true
-
-		System.out.println(c);
+		// 変数「bool」に「valは50より小さい AND valを10で割った余りが0」を演算した結果を代入して、値を出力
+		bool = (val < 50) && (val % 10 == 0);
+		System.out.println(bool);
 	}
 
 }
