@@ -22,8 +22,8 @@ public class Chapter06 {
 		c = a == f; // c =false
 
 //		c = a.equals(b); // c = true
-//		c = a.equals(e); // c = true
-//		c = a.equals(f); // c = true
+		c = a.equals(e); // c = true
+		c = a.equals(f); // c = true
 
 		System.out.println(c);
 	}
