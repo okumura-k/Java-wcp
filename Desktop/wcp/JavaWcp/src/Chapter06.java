@@ -1,15 +1,15 @@
 
 public class Chapter06 {
 	public static void main(String[] args) {
-		int a = 15;
-		int c;
-		c = a + 3; // c = 18
-		c = a - 5; // c = 10
-		c = a * 2; // c = 30
-		c = a / 6; // c = 2
-		c = a % 4; // c = 3
+		// インクリメント a++,++a = aを1増加する
+		// デクリメント a--,--a = aを1減少する
+		int a;
+		a = 10;
+		a++; // a = 11
+		a = 10;
+		a--; // a = 9
 
-		System.out.println(c);
+		System.out.println(a);
 	}
 
 }
