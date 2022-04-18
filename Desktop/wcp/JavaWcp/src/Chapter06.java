@@ -1,16 +1,17 @@
 
 public class Chapter06 {
 	public static void main(String[] args) {
-		int a;
+		int a = 5;
+		boolean c;
 
-		a = 10; // a = 10：aに10を代入
-		a += 5; // a = 15：aにa+5の結果を代入
-		a -= 3;
-		a *= 4;
-		a /= 2;
-		a %= 7;
+		c = a < 5; // c = false
+		c = a <= 5; // c = true
+		c = a > 4; // c = true
+		c = a >= 6; // c = false
+		c = a == 5; // c = true
+		c = a != 5; // c = false
 
-		System.out.println(a);
+		System.out.println(c);
 	}
 
 }
