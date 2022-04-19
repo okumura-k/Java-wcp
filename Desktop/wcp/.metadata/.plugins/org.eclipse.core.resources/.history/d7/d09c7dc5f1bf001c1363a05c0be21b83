@@ -14,14 +14,3 @@ public class Switch01 {
 		}
 	}
 }
-
-//	swich (式 (変数や値) {
-//	case 値：
-//		ブロック（処理）；
-//		break;
-//	case ～～
-//		～～
-//		～～
-//	default:
-//		～～
-//	}
