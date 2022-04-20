@@ -5,10 +5,8 @@ public class DoWhile01 {
 		// while文との記述上の違いは条件式の位置
 		int number = 1;
 		do {
-			// numberにnumber * 2 を代入して、numberを出力
 			number *= 2;
 			System.out.println("DoWhile01 = " + number);
-			// numberが50未満の場合、ブロックの処理をループ実行する
 		} while (number < 50);
 	}
 }
