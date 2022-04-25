@@ -1,35 +1,37 @@
-/*	Outer、Inner を、インスタンス化
-package inner_class_sample;
+package practice2;
 
-public class Outer{
-	public class Inner {
-	}
-}
-
-//このクラスA、Bを、別のクラスCからインスタンス化
-
-public class Example{
-	public static void main(String[] args) {
-		Outer outer = new Outer();
-		Outer.Inner inner = outer.new Inner();
-	}
-}
-
-//staticな内部クラスBの例
-package inner_class_sample;
+/*
+内部クラスは、外部クラスのフィールドを直接参照することが可
 
 public class Outer {
-    public static class Inner {
+
+    private String greeting = "こんにちは";
+
+    public class Inner {
+
+        public String hello() {
+            return greeting;
+        }
     }
 }
 
-//このクラスA、Bを、別のクラスCからインスタンス化
- public class Example {
-    public static void main(String[] args) {
-        Outer outer = new Outer(); // クラスOuterをインスタンス化
-        Outer.Inner inner = new Outer.Inner(); // クラスOuterの内部クラスInnerをインスタンス化
+※内部クラスInnerがstaticな場合は、参照できすにコンパイルエラー
+
+参照されるフィールドもstaticな場合は、staticな内部クラスからも参照可
+
+public class Outer {
+
+  // staticなフィールドgreeting
+    private static String greeting = "こんにちは";
+
+  // staticな内部クラスInner
+    public static class Inner {
+
+        public String hello() {
+      // 外部クラスOuterのフィールドgreetingはstaticなので、参照可能
+            return greeting;
+        }
     }
+
 }
  */
-
-*/
