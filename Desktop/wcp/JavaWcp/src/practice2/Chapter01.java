@@ -1,22 +1,35 @@
-//クラスAの中に、内部クラスBを持つ例
-public class A {
-	public class B {
+/*	Outer、Inner を、インスタンス化
+package inner_class_sample;
+
+public class Outer{
+	public class Inner {
 	}
 }
 
-//内部クラスBの中に、さらに内部クラスCを持つ例
-public class A {
-    public class B {
-        public class C {
-        }
+//このクラスA、Bを、別のクラスCからインスタンス化
+
+public class Example{
+	public static void main(String[] args) {
+		Outer outer = new Outer();
+		Outer.Inner inner = outer.new Inner();
+	}
+}
+
+//staticな内部クラスBの例
+package inner_class_sample;
+
+public class Outer {
+    public static class Inner {
     }
 }
 
-//内部クラスではなくても、1ファイルに複数のクラスを持つことも可
-public class A {
-
+//このクラスA、Bを、別のクラスCからインスタンス化
+ public class Example {
+    public static void main(String[] args) {
+        Outer outer = new Outer(); // クラスOuterをインスタンス化
+        Outer.Inner inner = new Outer.Inner(); // クラスOuterの内部クラスInnerをインスタンス化
+    }
 }
+ */
 
-class B {
-
-}
+*/
