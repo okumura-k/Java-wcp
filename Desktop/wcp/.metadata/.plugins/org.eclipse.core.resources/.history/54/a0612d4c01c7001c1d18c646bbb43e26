@@ -1,0 +1,11 @@
+package practice2;
+
+public enum Dessert {
+	public static void main(String[] args) {
+		String x = new String("あ");
+		String y = new String("あ");
+		
+		System.out.println(x == y);
+		System.out.println(x.equals(y));
+	}
+}
