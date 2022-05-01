@@ -1,0 +1,7 @@
+
+public class Chapter05 {
+	public static void main(String[] args) {
+		long long1 = 1234567890;
+		System.out.println(long1);
+	}
+}

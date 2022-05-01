@@ -1,0 +1,15 @@
+
+public class Chapter05 {
+	public static void main(String[] args) {
+		long long1 = 1234567890;
+		System.out.println(long1);
+
+		double double1 = 3.141592;
+		System.out.println(double1);
+		
+		boolean bool = true;
+		System.out.println(bool);
+		
+		
+	}
+}
