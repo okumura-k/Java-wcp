@@ -6,7 +6,7 @@ public class Variable01 {
 		num1 = 10;
 		str1 = "Hello World!";
 		
-		System.out.println(num1);
+		System.out.print(num1);
 		System.out.println(str1);
 		
 		num1 = 20;
