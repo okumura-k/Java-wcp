@@ -14,5 +14,3 @@ public class Recursive01 {
 		return number;
 	}
 }
-
-// 復習済み
