@@ -14,5 +14,3 @@ public class Human02 {
 		this.age = age;
 	}
 }
-
-// 復習済み
