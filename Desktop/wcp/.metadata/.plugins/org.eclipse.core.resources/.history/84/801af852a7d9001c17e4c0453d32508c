@@ -9,5 +9,3 @@ public class HumanNoCapsule {
 		this.age = age;
 	}
 }
-
-//復習済み
