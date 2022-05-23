@@ -21,5 +21,3 @@ public class CapsuleMan {
 			return name;
 		}
 }
-
-//復習済み

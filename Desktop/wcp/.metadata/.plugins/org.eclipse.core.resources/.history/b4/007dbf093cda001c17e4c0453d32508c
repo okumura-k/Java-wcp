@@ -9,5 +9,3 @@ public class Chapter12 {
         System.out.println("誕生日を迎えたので、年齢が" + man.getAge() + "になりました。");
     }
 }
-
-//復習済み
