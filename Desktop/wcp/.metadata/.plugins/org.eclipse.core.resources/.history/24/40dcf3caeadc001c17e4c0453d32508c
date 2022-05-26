@@ -15,4 +15,6 @@ public class Employee extends Human {
 	}
 }
 
-//復習済み
+//修飾子 class クラス名 extends スーパークラス名 {
+//	サブクラスの処理
+//}
