@@ -10,5 +10,3 @@ public class Dog extends Animal {
 		System.out.println(this.name + "が吠えました。ワン！ワン！");
 	}
 }
-
-//　復習済み
