@@ -15,5 +15,3 @@ public class MobilePhone implements Phone, Camera {
 		System.out.println(this.number + "から" + number + "に電話をかけます。");
 	}
 }
-
-// 復習済み

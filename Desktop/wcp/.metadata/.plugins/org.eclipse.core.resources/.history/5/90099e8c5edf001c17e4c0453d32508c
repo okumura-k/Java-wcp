@@ -9,5 +9,3 @@ public interface Phone {
 		System.out.println("電源を切ります。");
 	}
 }
-
-// 復習済み

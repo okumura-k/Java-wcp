@@ -16,5 +16,3 @@ public class Interface01 {
 		camera.takePicture();
 	}
 }
-
-//復習済み
