@@ -20,5 +20,3 @@ public class Chapter13 {
 		phone.call(number);
 	}
 }
-
-//復習済み
